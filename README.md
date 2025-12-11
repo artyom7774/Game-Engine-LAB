@@ -1,6 +1,6 @@
-# Game Engine 3
+# Game Engine LAB
 
-**Game Engine 3** is a powerful software framework for creating 2D games and applications with intuitive visual programming. The engine provides a user-friendly node-based editor that allows game creation without writing textual code.
+**Game Engine LAB** is a powerful software framework for creating 2D games and applications with intuitive visual programming. The engine provides a user-friendly node-based editor that allows game creation without writing textual code.
 
 <table>
   <tr>
