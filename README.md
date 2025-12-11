@@ -1,187 +1,186 @@
 # Game Engine LAB
 
-**Game Engine LAB** is a powerful software framework for creating 2D games and applications with intuitive visual programming. The engine provides a user-friendly node-based editor that allows game creation without writing textual code.
+**Game Engine LAB** — это мощный программный фреймворк для создания 2D игр и приложений с интуитивно понятным визуальным программированием. Движок предоставляет удобный нод-редактор, позволяющий создавать игры без написания текстового кода.
 
 <table>
   <tr>
-    <td><img src="descriptions/images/1.png" width="100%"></td>
-    <td><img src="descriptions/images/2.png" width="100%"></td>
+    <td><img src="images/1.png" width="100%"></td>
+    <td><img src="images/2.png" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="descriptions/images/3.png" width="100%"></td>
-    <td><img src="descriptions/images/4.png" width="100%"></td>
+    <td><img src="images/3.png" width="100%"></td>
+    <td><img src="images/4.png" width="100%"></td>
   </tr>
 </table>
 
-[ [English](README.md) | [Русский](descriptions/ru.md) ]
+## Ключевые особенности
 
-## Key Features
+- **Визуальное программирование** — Создание игровой логики с помощью нод-системы
+- **Встроенная физика** — Полноценный физический движок с коллизиями и взаимодействием объектов
+- **Система анимаций** — Гибкая настройка анимаций с группировкой спрайтов
+- **Графический рендеринг** — Работа со спрайтами и текстурами
+- **Кросс-платформенность** — Windows и Linux
+- **Открытый исходный код** — Полностью открытый проект
 
-- **Visual Programming** - Create game logic using a node system
-- **Built-in Physics** - Full-fledged physics engine with collisions and object interactions
-- **Animation System** - Flexible animation setup with sprite grouping
-- **Graphical Rendering** - Work with sprites and textures
-- **Cross-Platform Support** - Windows and Linux
-- **Open Source** - Fully open-source project
+## Установка
 
-## Installation
+1. Посетите [официальный сайт](https://artyom7777.pythonanywhere.com/) или [репозиторий GitHub](https://github.com/artyom7774/Game-Engine-3/releases/)
+2. Скачайте установщик программы
+3. Запустите **Game Engine LAB.exe**
 
-1. Visit the [official website](https://artyom7777.pythonanywhere.com/) or [GitHub repository](https://github.com/artyom7774/Game-Engine-3/releases/)
-2. Download the program installer
-3. Launch **Game Engine LAB.exe**
-
-## System Requirements
+## Системные требования
 
 - **Windows 10-11**
 - **4GB RAM**
 - **Intel Core i3-12100 / AMD Ryzen 5 4500**
 - **GTX 1650 / AMD Radeon RX 6500 XT**
 
-## Quick Start
+## Быстрый старт
 
-### Creating Your First Project
+### Создание первого проекта
 
-1. Launch Game Engine LAB
-2. In the **File** menu, select **Create Project** or **Create from Template**
-3. Configure basic project parameters in the **project.cfg** file:
-   - Window size
-   - Title and icon
-   - Maximum FPS and TPS values
-   - Fullscreen mode
-   - Initial scene
+1. Запустите Game Engine LAB
+2. В меню **File** выберите **Create Project** или **Create from Template**
+3. Настройте основные параметры проекта в файле **project.cfg**:
+   - Размер окна
+   - Заголовок и иконка
+   - Максимальные значения FPS и TPS
+   - Полноэкранный режим
+   - Начальная сцена
 
-### Core Components
+### Основные компоненты
 
-#### Objects
+#### Объекты
 
-- **Static Object** - Immovable objects (walls)
-- **Dynamic Object** - Physics-enabled objects (player, enemies, entities)
-- **Kinematic Object** - Physics-enabled objects (platforms)
-- **Particle** - Particle (for creating effects)
-- **Text** - Object for displaying text
-- **Button** - Object with a field, text, and click event handling
+- **Static Object** — Неподвижные объекты (стены)
+- **Dynamic Object** — Объекты с физикой (игрок, враги, сущности)
+- **Kinematic Object** — Объекты с физикой (платформы)
+- **Particle** — Частица (для создания эффектов)
+- **Text** — Объект для отображения текста
+- **Button** — Объект с полем, текстом и обработкой кликов
 
-#### Customizable Parameters
+#### Настраиваемые параметры
 
-- Position
-- Sprite
-- Hitbox
-- Group
-- Mass
-- Layer
-- Animation
-- Invsible
-- Opacity
+- Позиция
+- Спрайт
+- Хитбокс
+- Группа
+- Масса
+- Слой
+- Анимация
+- Невидимость
+- Прозрачность
 
-#### Scenes
+#### Сцены
 
-- Object placement in the game world
-- Camera setup
-- Interaction configuration
+- Размещение объектов в игровом мире
+- Настройка камеры
+- Конфигурация взаимодействий
 
-#### Functions (Node-Based Editor)
+#### Функции (Нод-редактор)
 
-Editor based on connecting functional nodes
+Редактор на основе соединения функциональных нодов
 <br>
-Over 80 available nodes divided into 10 categories:
-- Events
-- Loops
-- Text
-- Number
-- Logic
-- Objects
-- Animation
-- Another
-- Set
-- Music
+Более 80 доступных нодов, разделенных на 10 категорий:
+- События
+- Циклы
+- Текст
+- Числа
+- Логика
+- Объекты
+- Анимация
+- Другое
+- Установка
+- Музыка
 
-#### Collision Configuration
+#### Настройка коллизий
 
-In the **collision.cfg** file, configure interactions between different object groups by defining which objects can collide with each other.
+В файле **collision.cfg** настройте взаимодействия между различными группами объектов, определив, какие объекты могут сталкиваться друг с другом.
 
-#### Animation System
+#### Система анимаций
 
-- Create animation groups
-- Configure sprites for each group
-- Animation parameters:
-  - Loop animation
-  - Playback speed
-  - Autoplay on scene load
+- Создавайте группы анимаций
+- Настраивайте спрайты для каждой группы
+- Параметры анимации:
+  - Зацикленная анимация
+  - Скорость воспроизведения
+  - Автовоспроизведение при загрузке сцены
 
-### Compilation and Execution
+### Компиляция и выполнение
 
-- Quick project launch with debug mode
-- Compile project into an executable (.exe) file
-- Save project or its compiled version
+- Быстрый запуск проекта с режимом отладки
+- Компиляция проекта в исполняемый файл (.exe)
+- Сохранение проекта или его скомпилированной версии
 
-## Project Architecture
+## Архитектура проекта
 
 ```
 Game Engine LAB
-├─ Engine
-│   ├─ Sprite rendering (Pygame)
-│   ├─ Sprite and texture handling (Pillow)
-│   ├─ Physics engine
-│   ├─ Collision system
-│   └─ Animation system
+├─ Движок
+│ ├─ Отрисовка спрайтов (Pygame)
+│ ├─ Работа со спрайтами и текстурами (Pillow)
+│ ├─ Физический движок
+│ ├─ Система коллизий
+│ └─ Система анимаций
 │
-├─ Editor interface
-│   ├─ AI assistant
-│   ├─ Object editor
-│   ├─ Scene editor
-│   ├─ Node editor
-│   └─ Project execution and compilation
+├─ Интерфейс редактора
+│ ├─ AI-ассистент
+│ ├─ Редактор объектов
+│ ├─ Редактор сцен
+│ ├─ Нод-редактор
+│ └─ Запуск и компиляция проектов
 │
-├─ Website
-│   ├─ Project documentation
-│   └─ Node list with examples
+├─ Веб-сайт
+│ ├─ Документация проекта
+│ └─ Список нодов с примерами
 │
 └─ GELauncher
-    └─ Launcher for using Game Engine LAB
+└─ Лаунчер для использования Game Engine LAB
 ```
 
-## Technical Details
 
-- **Primary Language**: Python
-- **Optimization**: Cython for performance enhancement
-- **Graphics**: Pygame for rendering
-- **Images**: Pillow for sprite and texture processing
-- **Physics**: Custom physics engine
+## Технические детали
 
-## Project Examples
+- **Основной язык**: Python
+- **Оптимизация**: Cython для повышения производительности
+- **Графика**: Pygame для рендеринга
+- **Изображения**: Pillow для обработки спрайтов и текстур
+- **Физика**: Собственный физический движок
 
-Examples available in a [dedicated repository](https://github.com/artyom7774/Game-Engine-3-projects):
-- Dinosaur Runner
-- Snake Game
-- Platformer with Map Generation
+## Примеры проектов
 
-## Development Roadmap
+Примеры доступны в [отдельном репозитории](https://github.com/artyom7774/Game-Engine-3-projects):
+- Динозаврик
+- Змейка
+- Платформер с генерацией карты
 
-- Shader support
-- Mobile platform export (iOS, Android) and web version
-- Built-in sprite editor
-- Node library expansion
-- New programming features
+## План разработки
 
-## Community and Support
+- Поддержка шейдеров
+- Экспорт на мобильные платформы (iOS, Android) и веб-версия
+- Встроенный редактор спрайтов
+- Расширение библиотеки нодов
+- Новые возможности программирования
 
-- 🌐 [Official Website](https://artyom7777.pythonanywhere.com/)
-- 📚 [Documentation & Guides](https://artyom7777.pythonanywhere.com/documentation/)
-- 💬 [Discord Community](https://discord.gg/AgYqzHYUVf)
-- 📝 [GitHub Repository](https://github.com/artyom7774/Game-Engine-3)
+## Сообщество и поддержка
 
-## Contributing
+- 🌐 [Официальный сайт](https://artyom7777.pythonanywhere.com/)
+- 📚 [Документация и руководства](https://artyom7777.pythonanywhere.com/documentation/)
+- 💬 [Сообщество Discord](https://discord.gg/AgYqzHYUVf)
+- 📝 [Репозиторий GitHub](https://github.com/artyom7774/Game-Engine-3)
 
-Game Engine LAB is an open-source project. We welcome community contributions:
-- Bug reports
-- Feature suggestions
-- Code and fixes
-- Documentation and examples
+## Участие в разработке
 
-## License
+Game Engine LAB — проект с открытым исходным кодом. Мы приветствуем участие сообщества:
+- Сообщения об ошибках
+- Предложения функций
+- Код и исправления
+- Документация и примеры
 
-Distributed under an open-source license. See LICENSE file for details.
+## Лицензия
+
+Распространяется по открытой лицензии. Подробности смотрите в файле LICENSE.
 
 ---
 
-**Game Engine LAB** is not just a tool, but a complete ecosystem for rapid 2D game development. Try the engine in action and discover new possibilities for programming without writing code!
+**Game Engine LAB** — это не просто инструмент, а полноценная экосистема для быстрой разработки 2D игр. Попробуйте движок в действии и откройте новые возможности программирования без написания кода!
